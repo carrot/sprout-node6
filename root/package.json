@@ -19,6 +19,7 @@
   "main": "lib",
   "repository": "<%= github_username %>/<%= name %>",
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "lint": "standard"
   }
 }
