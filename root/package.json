@@ -6,6 +6,7 @@
   "ava": {
     "verbose": "true"
   },
+  "bugs": "https://github.com/<%= github_username %>/<%= name %>/issues",
   "devDependencies": {
     "ava": "0.14.x",
     "standard": "7.x"
@@ -13,8 +14,10 @@
   "engines": {
     "node": ">= 6.0.0"
   },
+  "homepage": "https://github.com/<%= github_username %>/<%= name %>",
   "license": "MIT",
   "main": "lib",
+  "repository": "<%= github_username %>/<%= name %>",
   "scripts": {
     "test": "ava"
   }
