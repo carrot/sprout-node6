@@ -1,15 +1,15 @@
-# Sprout ES2015 Starter Template
+# Sprout >= node@6 Template
 
-This is [carrot](http://carrot.is)'s starter template for node projects written with ES2015. It uses babel to compile ES2015 and Mocha/Chai for the tests. Everything runs through normal `node` commands in development, and it includes a makefile which will compile code before production so that babel is not used.
+This is [carrot](http://carrot.is)'s starter template for node projects written with ES6. It uses ES6 directly, which is fully compatible with version 6 of node.js.
 
 ### Installation
 
 - `npm i sprout-cli -g`
-- `sprout add es2015 https://github.com/carrot/sprout-es2015.git`
+- `sprout add node6 https://github.com/carrot/sprout-node6.git`
 
 ### Usage
 
-`sprout init es2015 <project name>`
+`sprout init node6 <project name>`
 
 Once you have initialized the project, you can run it with `npm start`, run tests with `npm test`, and lint with `npm run lint`.
 
