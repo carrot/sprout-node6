@@ -1,6 +1,6 @@
-# Sprout >= node@6 Template
+# Sprout Node 6 Template
 
-This is [carrot](http://carrot.is)'s starter template for node projects written with ES6. It uses ES6 directly, which is fully compatible with version 6 of node.js.
+This is [carrot](http://carrot.is)'s starter template for node projects written with ES6. It uses ES6 directly, which is fully compatible with version 6+ of node.js.
 
 ### Installation
 
