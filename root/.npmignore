@@ -1,0 +1,5 @@
+src
+test
+contributing.md
+.editorconfig
+<% if (travis) { %>.travis.yml<% } %>

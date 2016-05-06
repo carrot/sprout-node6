@@ -1,0 +1,18 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "description": "<%= description %>",
+  "main": "lib",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "<%= github_username %>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "0.14.x",
+    "standard": "7.x"
+  },
+  "ava": {
+    "verbose": "true"
+  }
+}
