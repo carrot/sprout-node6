@@ -1,18 +1,21 @@
 {
   "name": "<%= name %>",
-  "version": "0.0.0",
   "description": "<%= description %>",
-  "main": "lib",
-  "scripts": {
-    "test": "ava"
-  },
+  "version": "0.0.0",
   "author": "<%= github_username %>",
-  "license": "MIT",
+  "ava": {
+    "verbose": "true"
+  },
   "devDependencies": {
     "ava": "0.14.x",
     "standard": "7.x"
   },
-  "ava": {
-    "verbose": "true"
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "license": "MIT",
+  "main": "lib",
+  "scripts": {
+    "test": "ava"
   }
 }
