@@ -9,6 +9,8 @@
   "bugs": "https://github.com/<%= github_username %>/<%= name %>/issues",
   "devDependencies": {
     "ava": "0.14.x",
+    "coveralls": "2.x",
+    "nyc": "6.x",
     "standard": "7.x"
   },
   "engines": {
@@ -20,6 +22,8 @@
   "repository": "<%= github_username %>/<%= name %>",
   "scripts": {
     "test": "ava",
-    "lint": "standard"
+    "lint": "standard",
+    "coverage": "nyc ava",
+    "coveralls": "nyc --reporter=lcov ava && cat ./coverage/lcov.info | coveralls"
   }
 }
