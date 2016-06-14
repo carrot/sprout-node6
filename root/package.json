@@ -8,7 +8,7 @@
   },
   "bugs": "https://github.com/<%= github_username %>/<%= name %>/issues",
   "devDependencies": {
-    "ava": "0.14.x",
+    "ava": "0.15.x",
     "coveralls": "2.x",
     "nyc": "6.x",
     "standard": "7.x"
