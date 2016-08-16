@@ -1,6 +1,6 @@
-const example = require('../lib/example')
+const <%= name %> = require('..')
 const test = require('ava')
 
-test('example exports correctly', (t) => {
-  t.is(example, 'wow es6!')
+test('basic', (t) => {
+  t.is(<%= name %>, 'test')
 })

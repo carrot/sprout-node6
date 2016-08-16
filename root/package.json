@@ -8,22 +8,23 @@
   },
   "bugs": "https://github.com/<%= github_username %>/<%= name %>/issues",
   "devDependencies": {
-    "ava": "0.15.x",
-    "coveralls": "2.x",
-    "nyc": "6.x",
-    "standard": "7.x"
+    "ava": "^0.16.0",
+    "coveralls": "^2.11.12",
+    "nyc": "^8.1.0",
+    "snazzy": "^4.0.1",
+    "standard": "^7.1.2"
   },
   "engines": {
-    "node": ">= 6.0.0"
+    "node": ">= 6"
   },
   "homepage": "https://github.com/<%= github_username %>/<%= name %>",
   "license": "MIT",
   "main": "lib",
   "repository": "<%= github_username %>/<%= name %>",
   "scripts": {
-    "test": "ava",
-    "lint": "standard",
-    "coverage": "nyc ava",
-    "coveralls": "nyc --reporter=lcov ava && cat ./coverage/lcov.info | coveralls"
+    "test": "nyc ava",
+    "lint": "standard | snazzy",
+    "coverage": "nyc ava && nyc report --reporter=html && open ./coverage/index.html",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   }
 }

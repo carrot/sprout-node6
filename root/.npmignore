@@ -1,5 +1,6 @@
-src
 test
 contributing.md
 .editorconfig
+coverage
+.nyc_output
 <% if (travis) { %>.travis.yml<% } %>
