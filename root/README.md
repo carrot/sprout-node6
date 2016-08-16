@@ -1,6 +1,9 @@
 # <%= name %>
 
-[![npm](http://img.shields.io/npm/v/<%= name %>.svg?style=flat)](https://badge.fury.io/js/<%= name %>) <% if (travis) { %>[![tests](http://img.shields.io/travis/<%= github_username %>/<%= name %>/master.svg?style=flat)](https://travis-ci.org/<%= github_username %>/<%= name %>)<% } %> [![dependencies](http://img.shields.io/david/<%= github_username %>/<%= name %>.svg?style=flat)](https://david-dm.org/<%= github_username %>/<%= name %>) [![coverage](http://img.shields.io/coveralls/<%= github_username %>/<%= name %>.svg?style=flat)](https://coveralls.io/github/<%= github_username %>/<%= name %>)
+[![npm](https://img.shields.io/npm/v/<%= name %>.svg?style=flat-square)](https://npmjs.com/package/<%= name %>)
+[![tests](https://img.shields.io/travis/<%= github_username %>/<%= name %>.svg?style=flat-square)](https://travis-ci.org/<%= github_username %>/<%= name %>?branch=master)
+[![dependencies](https://img.shields.io/david/<%= github_username %>/<%= name %>.svg?style=flat-square)](https://david-dm.org/<%= github_username %>/<%= name %>)
+[![coverage](https://img.shields.io/coveralls/<%= github_username %>/<%= name %>.svg?style=flat-square)](https://coveralls.io/r/<%= github_username %>/<%= name %>?branch=master)
 
 <%= description %>
 
