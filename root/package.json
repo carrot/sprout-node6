@@ -9,10 +9,10 @@
   "bugs": "https://github.com/<%= github_username %>/<%= name %>/issues",
   "devDependencies": {
     "ava": "^0.16.0",
-    "coveralls": "^2.11.12",
-    "nyc": "^8.1.0",
-    "snazzy": "^4.0.1",
-    "standard": "^7.1.2"
+    "coveralls": "^2.11.14",
+    "nyc": "^8.3.2",
+    "snazzy": "^5.0.0",
+    "standard": "^8.4.0"
   },
   "engines": {
     "node": ">= 6"
