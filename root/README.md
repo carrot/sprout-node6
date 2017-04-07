@@ -17,8 +17,6 @@ Write about why this project is important.
 
 `npm install <%= name %> -S`
 
-> **Note:** This project is compatible with node v6+ only
-
 ### Usage
 
 How to use this project.
